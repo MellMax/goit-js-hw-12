@@ -1,7 +1,7 @@
-import './css/styles.css';
+import './sass/main.scss';
 import './css/normalize.css';
 
-import { fetchCountry } from './js/fetch-countries';
+import { fetchCountry } from './js/fetchCountries';
 import getRefs from './js/get-refs';
 import countryCardTpl from './templates/country-card.hbs';
 import countriesListTpl from './templates/countries-list.hbs';
@@ -12,7 +12,7 @@ countryCardTpl({});
 countriesListTpl({});
 
 const refs = getRefs();
-const DEBOUNCE_DELAY = 300;
+const DEBOUNCE_DELAY = 500;
 
 
 refs.searchBox.addEventListener('input', debounce(onSearch, DEBOUNCE_DELAY));

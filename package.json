@@ -22,10 +22,13 @@
     "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
+    "babel-plugin-dynamic-import-node": "^2.3.3",
     "handlebars": "^4.7.7",
     "lodash.debounce": "^4.0.8",
     "notiflix": "^3.0.1",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-plugin-nuke-dist": "^1.0.1"
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "sass": "^1.37.0",
+    "src": "^1.1.2"
   }
 }
