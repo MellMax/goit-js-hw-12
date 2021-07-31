@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-hw-12",
+  "version": "1.0.0",
+  "description": "**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MellMax/goit-js-hw-12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MellMax/goit-js-hw-12/issues"
+  },
+  "homepage": "https://github.com/MellMax/goit-js-hw-12#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.0.1",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
