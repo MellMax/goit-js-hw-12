@@ -1,4 +1,4 @@
-import './sass/main.scss';
+import '../src/sass/main.scss';
 import './css/normalize.css';
 
 import { fetchCountry } from './js/fetchCountries';

@@ -2850,7 +2850,7 @@ module.exports = debounce;
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
-require("./sass/main.scss");
+require("../src/sass/main.scss");
 
 require("./css/normalize.css");
 
@@ -2920,7 +2920,7 @@ function renderCountryCard(countries) {
 function error404(error) {
   _notiflix.default.Notify.failure('Oops, there is no country with that name');
 }
-},{"./sass/main.scss":"sass/main.scss","./css/normalize.css":"css/normalize.css","./js/fetchCountries":"js/fetchCountries.js","./js/get-refs":"js/get-refs.js","./templates/country-card.hbs":"templates/country-card.hbs","./templates/countries-list.hbs":"templates/countries-list.hbs","notiflix":"../node_modules/notiflix/dist/notiflix-aio-3.0.1.min.js","lodash.debounce":"../node_modules/lodash.debounce/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../src/sass/main.scss":"sass/main.scss","./css/normalize.css":"css/normalize.css","./js/fetchCountries":"js/fetchCountries.js","./js/get-refs":"js/get-refs.js","./templates/country-card.hbs":"templates/country-card.hbs","./templates/countries-list.hbs":"templates/countries-list.hbs","notiflix":"../node_modules/notiflix/dist/notiflix-aio-3.0.1.min.js","lodash.debounce":"../node_modules/lodash.debounce/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
