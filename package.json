@@ -19,10 +19,11 @@
   },
   "homepage": "https://github.com/MellMax/goit-js-hw-12#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "@babel/core": "^7.14.8",
+    "parcel-bundler": "^1.12.5",
+    "posthtml-include": "^1.7.1"
   },
   "dependencies": {
-    "babel-plugin-dynamic-import-node": "^2.3.3",
     "handlebars": "^4.7.7",
     "lodash.debounce": "^4.0.8",
     "notiflix": "^3.0.1",

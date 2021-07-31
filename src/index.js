@@ -1,5 +1,5 @@
+
 import '../src/sass/main.scss';
-import './css/normalize.css';
 
 import { fetchCountry } from './js/fetchCountries';
 import getRefs from './js/get-refs';

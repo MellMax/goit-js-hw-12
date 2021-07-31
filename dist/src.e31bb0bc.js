@@ -189,11 +189,6 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/normalize.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/fetchCountries.js":[function(require,module,exports) {
 "use strict";
 
@@ -2852,8 +2847,6 @@ module.exports = debounce;
 
 require("../src/sass/main.scss");
 
-require("./css/normalize.css");
-
 var _fetchCountries = require("./js/fetchCountries");
 
 var _getRefs = _interopRequireDefault(require("./js/get-refs"));
@@ -2920,7 +2913,7 @@ function renderCountryCard(countries) {
 function error404(error) {
   _notiflix.default.Notify.failure('Oops, there is no country with that name');
 }
-},{"../src/sass/main.scss":"sass/main.scss","./css/normalize.css":"css/normalize.css","./js/fetchCountries":"js/fetchCountries.js","./js/get-refs":"js/get-refs.js","./templates/country-card.hbs":"templates/country-card.hbs","./templates/countries-list.hbs":"templates/countries-list.hbs","notiflix":"../node_modules/notiflix/dist/notiflix-aio-3.0.1.min.js","lodash.debounce":"../node_modules/lodash.debounce/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../src/sass/main.scss":"sass/main.scss","./js/fetchCountries":"js/fetchCountries.js","./js/get-refs":"js/get-refs.js","./templates/country-card.hbs":"templates/country-card.hbs","./templates/countries-list.hbs":"templates/countries-list.hbs","notiflix":"../node_modules/notiflix/dist/notiflix-aio-3.0.1.min.js","lodash.debounce":"../node_modules/lodash.debounce/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -2948,7 +2941,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62676" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57130" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
