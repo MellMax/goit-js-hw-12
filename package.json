@@ -1,34 +1,31 @@
 {
-  "name": "goit-js-hw-12",
-  "version": "1.0.0",
-  "description": "**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**",
+  "name": "parcel-project-template",
+  "version": "1.1.0",
+  "description": "",
   "main": "index.js",
+  "homepage": "https://mellmax.github.io/goit-js-hw-12",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MellMax/goit-js-hw-12.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MellMax/goit-js-hw-12/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
-  "homepage": "https://github.com/MellMax/goit-js-hw-12#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "posthtml-include": "^1.7.1"
-  },
-  "dependencies": {
-    "handlebars": "^4.7.7",
-    "lodash.debounce": "^4.0.8",
-    "notiflix": "^3.0.1",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
-    "sass": "^1.37.0",
-    "src": "^1.1.2"
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "notiflix": "^3.0.1"
   }
 }

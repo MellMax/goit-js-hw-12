@@ -2,9 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 12</title>
+    <title>Заголовок страницы</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -13,13 +15,24 @@
     />
   </head>
   <body>
-    
-    
-    <include src="./partials/input.html"></include>
-    <include src="./partials/country-card.html"></include>
+   <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+   <!-- <div class="container-input">
 
-    
+    <input  type="text"
+    name="query"
+    id="search-box"
+    class="input"
+    placeholder="Enter the country you need"
+     />
 
-    <script src="index.js"></script>
+</div> -->
+   
+   <!-- <div class="container-card js-card-container">
+  </div> -->
+   <include src="./partials/input.html"></include>
+   <include src="./partials/country-card.html"></include>
+
+   <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+   <script src="./index.js"></script>
   </body>
 </html>

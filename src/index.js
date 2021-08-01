@@ -1,8 +1,5 @@
-
 import './sass/main.scss';
-
 import { fetchCountry } from './js/fetchCountries';
-import getRefs from './js/get-refs';
 import countryCardTpl from './templates/country-card.hbs';
 import countriesListTpl from './templates/countries-list.hbs';
 import Notiflix from 'notiflix';
@@ -11,18 +8,14 @@ import debounce from 'lodash.debounce';
 countryCardTpl({});
 countriesListTpl({});
 
-const refs = getRefs();
+const refs = {
+     cardContainer: document.querySelector('.js-card-container'),
+        searchBox: document.querySelector('#search-box'),
+};
 const DEBOUNCE_DELAY = 500;
 
 
 refs.searchBox.addEventListener('input', debounce(onSearch, DEBOUNCE_DELAY));
-
-
-   function renderCountry(country) {
-   const list = countriesListTpl(country);
-refs.cardContainer.innerHTML = list;
- }
-
 
 function onSearch(event) {
   event.preventDefault();
@@ -49,6 +42,12 @@ function onSearch(event) {
   })
   .catch(error404);
 }
+
+   function renderCountry(countries) {
+   const list = countriesListTpl(countries);
+   refs.cardContainer.innerHTML = list;
+ }
+
 
 function renderCountryCard(countries) {
   const countryExemplar = countries[0];

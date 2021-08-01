@@ -2,19 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 12</title>
+    <title>Заголовок страницы</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
   <link rel="stylesheet" href="/src.e31bb0bc.css"></head>
   <body>
-    
-    
-    <include src="./partials/input.html"></include>
-    <include src="./partials/country-card.html"></include>
+   <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+   <!-- <div class="container-input">
+
+    <input  type="text"
+    name="query"
+    id="search-box"
+    class="input"
+    placeholder="Enter the country you need"
+     />
+
+</div> -->
+   
+   <!-- <div class="container-card js-card-container">
+  </div> -->
+   
+<div class="container-input">
+
+    <input type="text" name="query" id="search-box" class="input" placeholder="Enter the country you need">
+
+</div>
+   
+ <div class="container-card js-card-container">
 
     
+ </div>
 
-    <script src="/src.e31bb0bc.js"></script>
+   <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+   <script src="/src.e31bb0bc.js"></script>
   </body>
 </html>
