@@ -5,7 +5,7 @@ import { fetchCountry } from './js/fetchCountries';
 import getRefs from './js/get-refs';
 import countryCardTpl from './templates/country-card.hbs';
 import countriesListTpl from './templates/countries-list.hbs';
-import Notiflix from "notiflix";
+import Notiflix from 'notiflix';
 import debounce from 'lodash.debounce';
 
 countryCardTpl({});
